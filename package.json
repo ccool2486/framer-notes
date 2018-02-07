@@ -9,6 +9,7 @@
   "author": "Howard Huang",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.20.1"
+    "moment": "^2.20.1",
+    "underscore": "^1.8.3"
   }
 }

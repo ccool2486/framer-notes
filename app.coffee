@@ -1,5 +1,5 @@
 $ = require "myModule"
-{moment} = require "npm"
+{moment, _} = require "npm"
 flow = new FlowComponent
 flow.showNext(Loop_Animation)
 
@@ -22,4 +22,5 @@ nextButton.onClick (event, layer) ->
 #NPM Import
 hoursFrom0Today = moment().startOf("day").fromNow()
 momentText.text = "距離今天0時： #{hoursFrom0Today}"
+
 
